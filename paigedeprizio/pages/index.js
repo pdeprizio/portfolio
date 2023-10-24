@@ -13,6 +13,9 @@ import web3 from '../public/hdr1.png';
 import web4 from '../public/hdr2.png';
 import web5 from '../public/chippyd.png';
 import { useState } from 'react';
+import {BsFillBrushFill} from 'react-icons/bs';
+import {BsGraphUpArrow} from 'react-icons/bs';
+import {BsFillLightbulbFill} from 'react-icons/bs';
 
 
 
@@ -83,7 +86,7 @@ export default function Home() {
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row'>
             <div className='text-center shadow-xl p-10 rounded-xl my-10 mx-auto dark:text-gray-200 bg-white basis-1/3 flex-1'>
-              
+              <BsFillBrushFill className='text-orange-600 dark:text-orange-400 text-center mx-auto' size='80'/>
               <h3 className='text-3xl font-bold text-indigo-950 dark:text-indigo-950 pt-8 pb-2'>UX Design</h3>
               <p className='py-2 dark:text-indigo-950'>Mastering user experience to create intuitive and visually appealing interfaces is my forte. I focus on understanding user 
               behavior and crafting designs that resonate with the audience, ensuring seamless navigation and engagement.</p>
@@ -95,7 +98,7 @@ export default function Home() {
 
             </div>
             <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-white basis-1/3 flex-1'>
-              
+            <BsFillLightbulbFill className='text-orange-600 dark:text-orange-400 text-center mx-auto' size='80'/>
               <h3 className='text-3xl font-bold text-indigo-950 dark:text-indigo-950 pt-8 pb-2'>Web Development</h3>
               <p className='py-2 dark:text-indigo-950'>I specialize in turning creative concepts into functional websites and web applications. With a strong command of various 
               programming languages and frameworks, I bring designs to life, ensuring they are responsive, dynamic, and user-friendly.</p>
@@ -104,7 +107,7 @@ export default function Home() {
 
             </div>
             <div className='text-center shadow-xl p-10 rounded-xl my-10 bg-white basis-1/3 flex-1'>
-              
+            <BsGraphUpArrow className='text-orange-600 dark:text-orange-400 text-center mx-auto' size='80'/>
               <h3 className='text-3xl font-bold text-indigo-950 dark:text-indigo-950  pt-8 pb-2'>SEO / Marketing</h3>
               <p className='py-2 dark:text-indigo-950'>Proficient in optimizing websites for search engines, I enhance online visibility and drive organic traffic through strategic SEO implementation. Additionally, I 
               excel in devising impactful digital marketing campaigns, elevating brand presence and ensuring continuous growth for businesses online.</p>
@@ -122,21 +125,21 @@ export default function Home() {
             
           </div>
          <div className='flex flex-col gap-10 py-10 lg:flex-row'>
-          <div className='basis-1/3 flex-1 shadow-md'>
-            <Image src={web5}  className='rounded-lg object-contain' width='100%' height='100%' layout='responsive' />
+          <div className='basis-1/2 flex-1 shadow-md'>
+            <a href="https://www.chippysangels.org"><Image src={web5}  className='rounded-lg object-contain'  layout='responsive' /></a>
             
           </div>
-          <div className='basis-1/3 flex-1 shadow-md'>
-            <Image src={web4} className='rounded-lg object-contain' width='100%' height='100%' layout='responsive' />
+          <div className='basis-1/2 flex-1 shadow-md'>
+            <a href="https://www.homedocrestoration.com"><Image src={web4} className='rounded-lg object-contain' layout='responsive' /></a>
           </div>
-          <div className='basis-1/3 flex-1 shadow-md'>
-            <Image src={web3} className='rounded-lg object-contain' width='100%' height='100%' layout='responsive' />
+          <div className='basis-1/2 flex-1 shadow-md'>
+            <a href="https://pdeprizio.github.io/homedoc-site/"><Image src={web3} className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
-          <div className='basis-1/3 flex-1 shadow-md'>
-            <Image src={web2} className='rounded-lg object-contain' width='100%' height='100%' layout='responsive' />
+          <div className='basis-1/2 flex-1 shadow-md'>
+            <a href="https://www.jreptiles.com"><Image src={web2} className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
-          <div className='basis-1/3 flex-1 shadow-md'>
-            <Image src={web1} className='rounded-lg object-contain' width='100%' height='100%' layout='responsive' />
+          <div className='basis-1/2 flex-1 shadow-md'>
+            <a href="https://joechiarello333.wixsite.com/website-1"><Image src={web1} className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
          </div>
         </section>
