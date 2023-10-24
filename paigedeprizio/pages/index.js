@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from "next/legacy/image"
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import Image from "next/legacy/image";
+import styles from '@/styles/Home.module.css';
 import {BsFillMoonFill} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
 import selfie from '../public/selfie.jpg';
